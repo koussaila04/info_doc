@@ -1,0 +1,177 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(35, 35, 35);
+    color: rgb(3, 14, 18);
+}
+
+p+table {
+    border: 4px solid rgb(85, 85, 85);
+}
+
+h3+table {
+    empty-cells: hide;
+}
+
+td {
+    border: 2px solid rgb(119, 119, 119);
+    padding: 10px;
+}
+
+th {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(221, 221, 221);
+}
+
+th+th {
+    text-align: center;
+}
+
+
+td>img {
+    width: 300px;
+}
+
+h2>img {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+h4>img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+h3>img {
+    width: 130px;
+    vertical-align: middle;
+}
+
+h3>a>img {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+h4 {
+    text-align: center;
+}
+
+.liste_speciale {
+    border: 2px solid rgb(68, 68, 68);
+    padding: 20px;
+    background-color: rgb(242, 242, 242);
+    color: rgb(68, 68, 68);
+    font-style: italic;
+
+}
+
+ul+p>img {
+    text-align: center;
+    width: 700px;
+    border: 15px rgb(68, 68, 68);
+    border-style: groove;
+}
+
+.derniere_photo {
+    text-align: center;
+}
+
+blockquote {
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(68, 68, 68);
+    background-color: rgb(246, 233, 214);
+    border-color: rgb(230, 178, 141);
+
+}
+
+p+ul>li {
+    list-style-type: square;
+}
+
+h4+ul>li {
+    list-style: none;
+
+}
+
+li>ul>li {
+    list-style: none;
+}
+
+h4+ul>li>a {
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+li>ul>li>a {
+    color: rgb(102, 102, 102);
+}
+
+#titre {
+    height: 190px;
+    border-style: solid;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(242, 201, 76);
+    border-color: rgb(35, 35, 35);
+    font-family: 'Roboto';
+    font-size: 19px;
+    word-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#body {
+    height: 80%;
+    font-family: 'Open Sans';
+}
+
+#menu {
+    float: left;
+    width: 200px;
+    border-style: solid;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(35, 35, 35);
+}
+
+#contenu {
+    margin-left: 200px;
+    height: 100%;
+    overflow: scroll;
+    border-style: solid;
+    border-radius: 30px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(234, 234, 234);
+    border-color: rgb(35, 35, 35);
+
+}
+
+#auteurs {
+    height: 9%;
+    border-style: solid;
+    border-radius: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(35, 35, 35);
+    font-family: 'Roboto';
+}

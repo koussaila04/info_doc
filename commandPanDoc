@@ -1,0 +1,29 @@
+--------------------- acceuil ---------------------
+
+pandoc -f commonmark -t html -s --template ../monTemplateXHTML.html --metadata pagetitle="Accueil" --metadata css="../CSS/messai.css" index.md
+
+--------------------- page 1 ---------------------
+
+pandoc -f commonmark -t html -s --template ../monTemplateXHTML.html --metadata pagetitle="Biographie" --metadata css="../CSS/messai.css" page1.md
+
+--------------------- page 2 ---------------------
+
+pandoc -f commonmark -t html -s --template ../monTemplateXHTML.html --metadata pagetitle="Inventions et Héritage" --metadata css="../CSS/messai.css" page2.md
+
+--------------------- page 3 ---------------------
+
+pandoc -f commonmark -t html -s --template ../monTemplateXHTML.html --metadata pagetitle="Tableau des inventions" --metadata css="../CSS/messai.css" page3.md
+
+--------------------- page 4 ---------------------
+
+pandoc -f commonmark -t html -s --template ../monTemplateXHTML.html --metadata pagetitle="Vie personnelle" --metadata css="../CSS/messai.css" page4.md
+ 
+--------------------- page 5 ---------------------
+
+pandoc -f commonmark -t html -s --template ../monTemplateXHTML.html --metadata pagetitle="Le décès de Tesla" --metadata css="../CSS/messai.css" page5.md
+
+--------------------- bibliographie ---------------------
+
+pandoc -f commonmark -t html -s --template ../monTemplateXHTML.html --metadata pagetitle="Bibliographie" --metadata css="../CSS/messai.css" bibliographie.md
+
+
